@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    main {
+        columns: 1;
+    }
+
+    main .img_procedimentos img {
+        height: 200px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    main .img_resultados img {
+        height: 150px;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    main .img_resultados2 img {
+        height: 200px;
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    main {
+        columns: 2;
+    }
+
+    main .img_procedimentos img,
+    main .img_resultados img,
+    main .img_resultados2 img {
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        columns: 3; 
+    }
+
+    main .img_procedimentos img,
+    main .img_resultados img,
+    main .img_resultados2 img {
+        width: 70%; 
+        height: auto; 
+        margin: 0 auto;
+    }
+}
+
